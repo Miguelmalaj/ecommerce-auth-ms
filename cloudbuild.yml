@@ -15,6 +15,9 @@ steps:
         'northamerica-south1-docker.pkg.dev/microservices-504519/image-registry/auth-ms',
       ]
 
+options:
+  logging: "CLOUD_LOGGING_ONLY"
+
 availableSecrets:
   secretManager:
   - versionName: projects/716817249565/secrets/auth_database_url/versions/1
